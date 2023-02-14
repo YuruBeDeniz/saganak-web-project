@@ -13,7 +13,6 @@ import Login from "./pages/auth/Login";
 function App() {
   return (
     <div className="App">
-      <h1>Finally Deniz Saganak Website</h1>
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
