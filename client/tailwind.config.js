@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+//const colors = require("tailwindcss/colors");
+
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
@@ -11,7 +13,8 @@ module.exports = {
       'mono': ['ui-monospace', 'SFMono-Regular'],
       'display': ['Oswald'],
       'body': ['"Open Sans"'],
-    }
+    },
+    //colors: colors.amber,
   },
   plugins: [],
 }

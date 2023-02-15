@@ -90,15 +90,7 @@ export default function Footer() {
             <div className="flex justify-between">
               <div></div>
               <div>
-                © 2023 Copyright:&nbsp;
-                <a
-                  className="text-blue-600/50 hover:text-blue-600"
-                  href="https://www.linkedin.com/in/dilara-deniz-saganak-45190b146/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Deniz Saganak&nbsp;
-                </a>
+                © 2023 Copyright:&nbsp;Deniz Saganak&nbsp;
               </div>
               <div className="mt-2">
                 {isLoggedIn ? (
